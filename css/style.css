@@ -1,0 +1,205 @@
+@font-face {
+  font-family: Sensation;
+  src: url(fonts/Sansation-Regular.ttf);
+}
+@font-face {
+  font-family: Sensation;
+  src: url(fonts/Sansation-Bold.ttf);
+  font-weight: bold;
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+body {
+  font-family: Sensation, sans-serif;
+  background-color: #080715;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  text-transform: uppercase;
+}
+
+.main-title {
+  width: 100%;
+  height: 78px;
+  background: linear-gradient(45deg, #ff0d47, #ff881a);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 24px;
+
+  color: #ebebeb;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  background-image: url("http://hdqwalls.com/wallpapers/dark-siders-game-hd.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.banner p {
+  display: flex;
+  font-size: 24px;
+  width: 50%;
+  color: #ebebeb;
+  text-align: center;
+}
+.vantages {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: -45px;
+  color: #ebebeb;
+
+  text-align: left;
+}
+button {
+  display: block;
+  padding: 20px 25px;
+  background: linear-gradient(45deg, #ff0d47, #ff881a);
+  border: 0;
+  border-radius: 10px;
+  font-family: Sensation, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d6d6d6;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px #000000;
+}
+.title-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  padding: 45px;
+}
+.vantage-image {
+  width: 297px;
+  height: 297px;
+}
+.vantage-item {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+  max-width: 1000px;
+}
+.vantage-item > * {
+  flex: 0 1;
+}
+
+.vantage-feature {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  text-align: right;
+  width: 100%;
+}
+
+.vantages .vantage-feature {
+  background-color: #ededed;
+  color: #080715;
+}
+.right {
+  text-align: right;
+  margin-left: 90px;
+}
+.dark {
+  text-align: left;
+}
+h1 {
+  color: #ff4e2f;
+  font-size: 48px;
+  font-weight: normal;
+}
+
+.vantage-detail {
+  padding: 10px;
+  width: 100%;
+  font-size: 12px;
+  text-align: justify;
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #ededed;
+}
+.courses-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.course-desc {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+  align-items: center;
+}
+.course-item {
+  width: 65%;
+
+  display: flex;
+  background: linear-gradient(45deg, #ff0d47, #ff881a);
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 2;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+li p {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.courses-list li img {
+  width: 107px;
+  height: 107px;
+}
+footer {
+  z-index: 1;
+}
+.login {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: #ededed;
+  text-align: right;
+}
+.login a {
+  color: #ff7221;
+  cursor: pointer;
+  text-decoration: none;
+}
